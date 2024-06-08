@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatile" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BAKR</title>
+
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+     <link rel="stylesheet" href="portfolio1.css">
+     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+</head>
+
+<body class="dark">
+    <header class="header">
+        <div class="content">
+             <h2>BAKR</h2>
+             <h2>BAKR</h2>
+        </div>
+       
+
+        <nav class="navbar">
+            <ul>
+            <li><a href="#Home" class="active">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="toggle" for="toggle">
+            <i class='bx bx-sun' ></i>
+            <i class='bx bx-moon' ></i>
+            <span class="ball"></span>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Bakr Bouhaya</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptas explicabo culpa! A illo atque vel officiis deserunt quae eius assumenda aut dignissimos voluptate. Perspiciatis atque aut qui accusamus ipsam?</p>
+            <a href="#" class="ctaa">
+                <div class="bx bx-play" style="color:rgb(255, 255, 255)" id="play-circle"></div>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             Watch me
+            </a>
+        
+        </div>
+        
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxs-envelope' ></i></a>
+        </div>
+
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette' ></i>
+                    <h3>Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-laptop'></i>
+                    <h3>Programmer</h3>
+                </div>
+                <div class="profession" style="--i:3;"> 
+                    <i class='bx bx-book-reader'></i>
+                    <h3>Student</h3>
+                </div>
+                
+                
+
+                <div class="circle"></div>
+            </div>
+
+
+            <div class="overlay"></div>
+           </div>
+         
+        </div>
+          
+    </section>
+     <div class="icons">
+            <div class="content">
+                <ul>
+                    <li class="featured"><h3 >Professionnel in:</h3></li>
+                    <li><h3>Blender</h3></li>
+                    <li><h3>Pycharm</h3></li>
+                    <li><h3>Powerpoint</h3></li>
+                </ul>
+            </div>
+        </div>
+     <section class="about" id="about">
+        <div class="bubbles">
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:24;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:23;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            <span style="--i:22;"></span>
+            <span style="--i:25;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:21;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:26;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:28;"></span> 
+        </div>
+         <h2 class="heading">About <span class="heading">Me</span></h2>
+
+        <div class="about-img">
+            <img src="profile.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <div class="box">
+                <div class="content">
+                 <h2>Who is Bakr ?</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, repudiandae expedita tempore nihil tempora repellat in cumque aliquam adipisci, obcaecati officia cum perferendis illum! Quo animi dignissimos consequuntur dolorum maxime, asperiores ipsa ullam voluptatum, laboriosam excepturi at eum sunt, iusto tempore? Aut non soluta deserunt odio reiciendis sunt ducimus natus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptas vel ex voluptates dolor hic magni magnam vitae, tempore ratione quisquam et! Magni provident natus quos dignissimos laborum incidunt Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nobis tempore ab </p>
+                </div>
+            </div> 
+           <div class="btn-box btns">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+     </section>
+    <section class="education" id="eduaction">
+        <h2 class="heading">My <span class="career">career</span></h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title1">Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content shadow-effect">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                        
+                        
+                        </div>
+                    </div>
+                
+                    <div class="skills-content shadow-effect">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="skills-content">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title2">Exprerience</h3>
+                <div class="skills-box">
+                    <div class="skills-content shadow-effect">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                        
+                        
+                        </div>
+                    </div>
+                
+                    <div class="skills-content shadow-effect">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                        
+                        
+                        </div>
+                    </div>
+                    <div class="skills-content shadow-effect">
+                        <div class="content1">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                            <h3>Master Degree - univrsity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title3">Sports Activities</h3>
+                    <div class="skills-box">
+                        <div class="skills-content shadow-effect">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                            
+                            
+                            </div>
+                        </div>
+                    
+                        <div class="skills-content shadow-effect">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                            
+                            
+                            </div>
+                        </div>
+                        <div class="skills-content">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3 class="title2">Education</h3>
+                    <div class="skills-box">
+                        <div class="skills-content shadow-effect">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                            
+                            
+                            </div>
+                        </div>
+                    
+                        <div class="skills-content shadow-effect">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolore.</p>
+                            
+                            
+                            </div>
+                        </div>
+                        <div class="skills-content shadow-effect">
+                            <div class="content1">
+                                <div class="year"><i class='bx bxs-calendar'></i> 2019 - 2020</div>
+                                <h3>Master Degree - univrsity</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate facere aperiam exercitationem voluptate, quasi, maiores inventore, voluptatem aliquid temporibus nulla perferendis quisquam quibusdam accusamus! Quae enim excepturi architecto ab dolor.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="quotes">
+        <video src="video.mp4" autoplay loop muted></video>
+        <h2 class="words">"Believe in yourself you are enough"</h2>
+    </div>
+    <section class="portfolio" id="service">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="sectionsubtitle">what are my project ?</span>
+        <div class="card">
+            <div class="card-content">
+             <h2 class="card-title">3D Model DNA</h2>
+             <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor assumenda mollitia a, voluptatum blanditiis harum accusamus magnam placeat voluptate ratione magni illum incidunt repellendus voluptatibus officiis reiciendis tempore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, error alias ipsum tempore quod illo veniam laborum magni voluptatem sit molestias. Libero magni maxime inventore nemo nihil, magnam ipsam distinctio.</p>
+             <a href="#" class="button">Learn More</a>
+           </div>
+        </div>
+        <div class="card1">
+            <div class="card-content1">
+             <h2 class="card-title1">Portfolio of my self</h2>
+             <p class="card-body1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor assumenda mollitia a, voluptatum blanditiis harum accusamus magnam placeat voluptate ratione magni illum incidunt repellendus voluptatibus officiis reiciendis tempore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, error alias ipsum tempore quod illo veniam laborum magni voluptatem sit molestias. Libero magni maxime inventore nemo nihil, magnam ipsam distinctio.</p>
+             <a href="#" class="button1">Learn More</a>
+           </div>
+        </div>
+        <div class="card2">
+            <div class="card-content2">
+             <h2 class="card-title2">animation in powerpoint</h2>
+             <p class="card-body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolor assumenda mollitia a, voluptatum blanditiis harum accusamus magnam placeat voluptate ratione magni illum incidunt repellendus voluptatibus officiis reiciendis tempore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, error alias ipsum tempore quod illo veniam laborum magni voluptatem sit molestias. Libero magni maxime inventore nemo nihil, magnam ipsam distinctio.</p>
+             <a href="#" class="button2">Learn More</a>
+           </div>
+        </div> 
+         <div class="section">
+         <div class="projectbg">
+            <div class="projectcontainer container grid">
+                <div class="projectdata">
+                    <h2 class="projecttitle">If you need help !</h2>
+                    <p class="projectdescription">contact me now and ask me anything that can i help</p>
+                    <div class="home-content1">  
+                     <a href="" class="button--flex button--white"> 
+                        <i class='bx bx-chat projecticon buttonicon' id="message"></i>
+                        Contact me 
+                     </a>
+                    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="sectiontitle">Contact Me</h2>
+        <span class="sectionsubtitl">Get in touch</span>
+        <div class="contactcontainer grid">
+            <div>
+                <div class="contact__information">
+                    <i class='bx bx-phone-call contact__icon'></i>
+                    <div>
+                        <h3 class="contact__title">Call Me</h3>
+                        <span class="contact__subtitle">06 37 33 57 61</span>                    
+                    </div>
+                </div>
+                <div class="contact__information">
+                    <i class='bx bx-envelope contact__icon'></i>
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">barabouhaya2018@gmail.com</span>                    
+                    </div>
+                </div>
+            </div>
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name & Prenom</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Project</label>
+                    <input type="text" class="contact__input">
+                </div>
+                <div class="contact__content">
+                    <label for="" class="contact__label">Message</label>
+                    <textarea name="" id="" cols="4" rows="7" class="contact__input"></textarea>
+                </div>
+                <div>
+                    <button class="button3">Send Message</button>
+                </div>
+
+
+            </form>
+        </div>
+    </section>
+     <footer class="footer">
+        <div class="footer-bg">
+            <div class="footer-container">
+                <div>
+                    <h1 class="footer-title">BAKR</h1>
+                    <span class="footer-subtitle">Student & Web Developer</span>
+                </div>  
+             </div> 
+               <div class="center">
+                   <p class="footer-copy">&#169; it's not a habit but it's passion </p>
+               </div>
+        </div>
+         <div class="wave wave1"></div>
+         <div class="wave wave2"></div>
+         <div class="wave wave3"></div>
+         <div class="wave wave4"></div>
+        </div>
+
+     </footer>
+   
+                     <model-viewer src="untitled1.gltf" class="contactme"></model-viewer>
+                </div>
+            </div>
+        </div> 
+      
+    </div>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence x="0" y="0" baseFrequency="0.02" numOctaves="5" seed="2">
+                 <animate attributeName="baseFrequency" dur="60s" values="0.02;0.05;0.02" repeatCount="indefinite"/>  
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="30"/>
+        </filter>
+    </svg>
+    <script>
+        const button = document.querySelector(".button3");
+
+        button.addEventListener("click", (e) => {
+            e.preventDefault();
+            button.classList.add("animate");
+
+            setTimeout(() => {
+                button.classList.remove("animate");
+            }, 2500) // 1s = 1000ms
+        });
+    </script>
+</body>
+</html>
